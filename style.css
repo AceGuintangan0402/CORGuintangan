@@ -3,7 +3,7 @@
    margin-right: 1.5%;
    margin: 2%;
 }
-.topsection {
+.topsection p,h1 {
     text-align:center;
     
     
@@ -22,7 +22,7 @@
 }
 .COR_text{
     margin-top: 50px ;
-    font-size: 18px;   
+    font-size: 18 px;   
     font-weight: 1000;
     display: inline-block;
     letter-spacing: 15px;
@@ -30,22 +30,25 @@
     
     
 }
-
-.table_cor p {
+ .title{
     background-color: rgb(25, 103, 213);
     border-radius: 2px;
     text-align: center;
-    border: 2px solid black ;
-    width: 100%;
-
-}
-
-.table_cor table{
-    width: 100%; 
-    text-align: center;
-     
+    border: 1px solid black ;
+    max-width: 100%;
+    margin-bottom: 0;
+    font-size: 20px;
     
 }
 
+.top_table table {
+   width: 100%;
+   padding: 0 200px 0 0px;
+   text-align: center;
+}
 
 
+.whole_table{
+    border: 1px solid black;
+    margin-top: 0;
+}
