@@ -30,3 +30,22 @@
     
     
 }
+
+.table_cor p {
+    background-color: rgb(25, 103, 213);
+    border-radius: 2px;
+    text-align: center;
+    border: 2px solid black ;
+    width: 100%;
+
+}
+
+.table_cor table{
+    width: 100%; 
+    text-align: center;
+     
+    
+}
+
+
+
