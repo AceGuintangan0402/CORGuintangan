@@ -33,7 +33,7 @@ body{
     
 }
  .title{
-    background-color: rgb(203, 217, 224);
+    background-color: rgb(203, 204, 245);
     border-radius: 2px;
     text-align: center;
     border: 1px solid black ;
@@ -58,7 +58,7 @@ body{
 }
 
 .secondpart_table table th{
-    background-color: aqua;
+    background-color: rgb(203, 204, 245);
     padding: .5rem;    
     text-align: center;
     
@@ -68,7 +68,7 @@ body{
 .secondpart_table table {
     width: 100%; 
     border-collapse: collapse;
-    border: solid;
+    border: 1px solid black;
     margin-top: 0%;
     
 
@@ -79,9 +79,7 @@ body{
     border-collapse: collapse;
     
 }
-.courses_table{
-    border: 2px solid black;
-}
+
 
 .courses_table table td,
 .courses_table table th {
@@ -95,3 +93,50 @@ body{
 .courses_table table td{
     padding-left: 40px;
 }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+    
+
+}
+.left, .right {
+    width: 40%;
+}
+.schedule, .fees {
+    width: 100%;
+}
+
+.left h1{
+    border: 1px solid black;
+    margin: 0;
+    background-color: rgb(203, 204, 245);
+    
+    
+}
+.fees{
+    border: 1px solid black;
+}
+
+.fees_1  {
+    width: 100%;
+    justify-content: space-between;
+    text-align: center;
+    border-collapse: collapse;
+    
+}
+.fees_1 tr {
+    border: 1px solid black; 
+}
+
+.schedule{
+    text-align: center;
+    border-collapse: collapse;
+    
+}
+.schedule tr th{
+    border:1px solid black;
+}
+
+
