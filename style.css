@@ -102,8 +102,11 @@ body{
     
 
 }
-.left, .right {
+.left {
     width: 40%;
+}
+.right{
+    width: 50%;
 }
 .schedule, .fees {
     width: 100%;
@@ -141,3 +144,51 @@ body{
 }
 
 
+.right table td,
+.right table th {
+    
+    padding:20px; 
+    text-align: left; 
+    flex: 1;
+    
+    
+}
+
+.right ol li{
+    text-decoration: none;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 20px;
+    color: rgb(92, 94, 94);
+    font-family: "Courier New", Courier, monospace;
+    
+    
+}
+.right ol{
+    margin-bottom: 60px;
+    
+
+}
+.right table {
+    margin-bottom: 60px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.right p {
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.signiture p{
+    margin-left: 20%;
+    
+}
+.signiture div{
+    text-align: right;
+}
+
+footer{
+    border: 1px solid black;
+    text-align: center;
+    background-color: rgb(203, 204, 245) ;
+}
